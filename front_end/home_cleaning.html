@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers - Home & Cleaning Services</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="./home_cleaning.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Home Services</h1>
+        </header>
+        
+        <section id="filters">
+            <button class="filter" id="filter-finances">💼 Finances Services</button>
+            <button class="filter active" id="filter-home">🧹 Home & Cleaning Services</button>
+        </section>
+
+        <ul id="rooms">
+            <!-- Servicio 1 -->
+            <li class="room">
+                <div class="roomTop">
+                    <span class="network-badge">Lead Smart</span>
+                    <span class="geo-badge">🌍 Global</span>
+                </div>
+                <div class="roomName">Chimney Sweeping - Pay Per Call</div>
+                <p class="description">Residential chimney sweeping and inspection routing campaign. Live transfers available.</p>
+                <div class="service-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Category</span>
+                        <span class="detail-value">Maintenance</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Buffer Time</span>
+                        <span class="detail-value">60 sec</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="payout-container">
+                        <span class="payout-title">Est. Payout</span>
+                        <span class="payout-amount">$2.00 - $30.00</span>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Servicio 2 -->
+            <li class="room">
+                <div class="roomTop">
+                    <span class="network-badge">Exclusive Live Calls</span>
+                    <span class="geo-badge">🇺🇸 US</span>
+                </div>
+                <div class="roomName">Kitchen Island Wiring</div>
+                <p class="description">Direct response inbound calls from homeowners looking for professional electrical installation work.</p>
+                <div class="service-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Category</span>
+                        <span class="detail-value">Electrical</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Buffer Time</span>
+                        <span class="detail-value">120 sec</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="payout-container">
+                        <span class="payout-title">Est. Payout</span>
+                        <span class="payout-amount">$54.00</span>
+                    </div>
+                </div>
+            </li>
+
+            <!-- Servicio 3 -->
+            <li class="room">
+                <div class="roomTop">
+                    <span class="network-badge">Exclusive Live Calls</span>
+                    <span class="geo-badge">🇺🇸 US</span>
+                </div>
+                <div class="roomName">Copper Pipe Repair</div>
+                <p class="description">Urgent plumbing inbound leads. High intent consumers with immediate repair requirements.</p>
+                <div class="service-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Category</span>
+                        <span class="detail-value">Plumbing</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Buffer Time</span>
+                        <span class="detail-value">120 sec</span>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="payout-container">
+                        <span class="payout-title">Est. Payout</span>
+                        <span class="payout-amount">$54.00</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+
+        <footer>
+            <button id="community"> 👥 <span>Community</span> </button>
+            <button id="chats"> 💬 <span>Chats</span> </button>
+            <button id="party" class="selected"> 🎉 <span>Offers</span> </button>
+        </footer>
+    </div>
+</body>
+</html>
