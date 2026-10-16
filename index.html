@@ -3,105 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Offers - Home & Cleaning Services</title>
+    <title>Financial Assistance Hotline</title>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <link rel="stylesheet" href="./home_cleaning.css">
+    <link rel="stylesheet" href="./finances.css">
 </head>
 <body>
     <div id="app">
         <header>
-            <h1>Home Services</h1>
+            <h1>National Helpline</h1>
+            <p class="subtitle">Connect with verified financial experts instantly</p>
         </header>
         
         <section id="filters">
-            <button class="filter" id="filter-finances">💼 Finances Services</button>
-            <button class="filter active" id="filter-home">🧹 Home & Cleaning Services</button>
+            <button class="filter active" id="filter-finances">💼 Finance Services</button>
+            <button class="filter" id="filter-home">🧹 Home & Cleaning</button>
+            <button class="filter" id="filter-legal">⚖️ Legal Services</button>
+            <button class="filter" id="filter-tech">💻 Tech Support</button>
+            <button class="filter" id="filter-auto">🚗 Automotive</button>
+            <button class="filter" id="filter-insurance">🛡️ Insurance</button>
         </section>
 
-        <ul id="rooms">
-            <!-- Servicio 1 -->
-            <li class="room">
-                <div class="roomTop">
-                    <span class="network-badge">Lead Smart</span>
-                    <span class="geo-badge">🌍 Global</span>
-                </div>
-                <div class="roomName">Chimney Sweeping - Pay Per Call</div>
-                <p class="description">Residential chimney sweeping and inspection routing campaign. Live transfers available.</p>
-                <div class="service-details">
-                    <div class="detail-item">
-                        <span class="detail-label">Category</span>
-                        <span class="detail-value">Maintenance</span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="detail-label">Buffer Time</span>
-                        <span class="detail-value">60 sec</span>
-                    </div>
-                </div>
-                <div class="bottom">
-                    <div class="payout-container">
-                        <span class="payout-title">Est. Payout</span>
-                        <span class="payout-amount">$2.00 - $30.00</span>
-                    </div>
-                </div>
-            </li>
+        <main class="main-card">
+            <div class="live-indicator">
+                <span class="live-dot"></span>
+                Agents Available (Free Consultation)
+            </div>
+            
+            <h2 class="service-title">Debt Relief & Settlement</h2>
+            <p class="service-desc">Reduce your monthly debt payments substantially. Speak with a certified US-based counselor to check your qualification status today.</p>
+            
+            <!-- Botón directo Pay Per Call -->
+            <a href="tel:+18005550199" class="call-button">
+                📞 Call Now: (800) 555-0199
+            </a>
 
-            <!-- Servicio 2 -->
-            <li class="room">
-                <div class="roomTop">
-                    <span class="network-badge">Exclusive Live Calls</span>
-                    <span class="geo-badge">🇺🇸 US</span>
-                </div>
-                <div class="roomName">Kitchen Island Wiring</div>
-                <p class="description">Direct response inbound calls from homeowners looking for professional electrical installation work.</p>
-                <div class="service-details">
-                    <div class="detail-item">
-                        <span class="detail-label">Category</span>
-                        <span class="detail-value">Electrical</span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="detail-label">Buffer Time</span>
-                        <span class="detail-value">120 sec</span>
-                    </div>
-                </div>
-                <div class="bottom">
-                    <div class="payout-container">
-                        <span class="payout-title">Est. Payout</span>
-                        <span class="payout-amount">$54.00</span>
-                    </div>
-                </div>
-            </li>
-
-            <!-- Servicio 3 -->
-            <li class="room">
-                <div class="roomTop">
-                    <span class="network-badge">Exclusive Live Calls</span>
-                    <span class="geo-badge">🇺🇸 US</span>
-                </div>
-                <div class="roomName">Copper Pipe Repair</div>
-                <p class="description">Urgent plumbing inbound leads. High intent consumers with immediate repair requirements.</p>
-                <div class="service-details">
-                    <div class="detail-item">
-                        <span class="detail-label">Category</span>
-                        <span class="detail-value">Plumbing</span>
-                    </div>
-                    <div class="detail-item">
-                        <span class="detail-label">Buffer Time</span>
-                        <span class="detail-value">120 sec</span>
-                    </div>
-                </div>
-                <div class="bottom">
-                    <div class="payout-container">
-                        <span class="payout-title">Est. Payout</span>
-                        <span class="payout-amount">$54.00</span>
-                    </div>
-                </div>
-            </li>
-        </ul>
+            <ul class="features-list">
+                <li class="feature-item"><span class="feature-icon">✓</span> 100% Free & Confidential Call</li>
+                <li class="feature-item"><span class="feature-icon">✓</span> Eliminate high-interest credit card debt</li>
+                <li class="feature-item"><span class="feature-icon">✓</span> Top-rated advisors available now</li>
+            </ul>
+        </main>
 
         <footer>
-            <button id="community"> 👥 <span>Community</span> </button>
-            <button id="chats"> 💬 <span>Chats</span> </button>
-            <button id="party" class="selected"> 🎉 <span>Offers</span> </button>
+            <p>Disclaimers: This is a matching service. Rates and results vary based on individual criteria. By calling you agree to be connected with a third-party partner.</p>
         </footer>
     </div>
 </body>
